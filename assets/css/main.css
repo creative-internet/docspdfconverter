@@ -58,7 +58,7 @@ body {
   background-color: #fff;
   position: relative;
   left: -20px;
-  top: -18px;
+  top: -21px;
   width: calc(100% + 50px);
   height: 80px;
 }
@@ -112,6 +112,10 @@ body > .copyright-container {
   background-color: #00000000 !important;
   color: white !important;
   text-align: right !important;
+}
+
+.fas.fa-arrow-right {
+  color: #2B478F;
 }
 
 .arrow > span {
