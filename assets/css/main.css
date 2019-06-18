@@ -57,7 +57,7 @@ body {
 .card-body .img-container {
   background-color: #fff;
   position: relative;
-  left: -15px;
+  left: -20px;
   top: -18px;
   width: calc(100% + 50px);
   height: 80px;
@@ -139,6 +139,7 @@ body > main > .card {
   filter: blur(0px);
   z-index: 10;
   width: 720px;
+  overflow: hidden;
 }
 
 
