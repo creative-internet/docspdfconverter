@@ -342,3 +342,14 @@ body:not(.overlay) > div.overlay {
   top: 50% !important;
   transform: translateY(-50%) !important;
 }
+
+.btn-primary {
+  position: relative;
+  top: 0px;
+  transition: 0.15s linear all !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none !important;
+  top: 5px;
+}
